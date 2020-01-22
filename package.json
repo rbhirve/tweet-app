@@ -21,7 +21,9 @@
     },
     "homepage": "https://github.com/rbhirve/tweet-app#readme",
     "dependencies": {
+        "config": "^3.2.5",
         "express": "^4.17.1",
+        "mongoose": "^5.8.9",
         "path": "^0.12.7"
     }
 }

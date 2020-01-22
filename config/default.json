@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb://localhost/tweet-app",
+    "jwtSecret": "secret",
+    "githubClientId": "",
+    "githubSecret": ""
+}
