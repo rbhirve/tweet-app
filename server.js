@@ -10,13 +10,9 @@ connectDB();
 // Init Middleware
 app.use(express.json({ extended: false }));
 
-/*
-    Write Application logig Here 
-    ...
-    ...
-    ...
-    ...
-*/
+// Write Application logic Here
+
+app.use("/api/users", require("./routes/api/users"));
 
 // Serve static assets in production
 if (process.env.NODE_ENV === "production") {
