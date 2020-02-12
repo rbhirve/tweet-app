@@ -10,12 +10,7 @@ class Login extends Component {
            return(
             <form className="login-form">
                 <h3 style={{textAlign : "center"}}>Sign In</h3>
-             
-                <div className="form-group">
-                    <label>Name</label>
-                    <input type="name" className="form-control" placeholder="Enter name" />
-                </div>
-
+        
                 <div className="form-group">
                     <label>Email address</label>
                     <input type="email" className="form-control" placeholder="Enter email" />
